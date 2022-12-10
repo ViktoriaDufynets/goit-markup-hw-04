@@ -37,7 +37,7 @@ body {
         width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
-        outline: 2px solid rgb(58, 56, 56);
+        /*outline: 2px solid rgb(58, 56, 56);*/
 }
 
 /* H E A D E R */
@@ -96,9 +96,10 @@ body {
 }
 
 
-.contacts .contact {
+.contact {
         padding-top: 6px;
         padding-bottom: 6px;
+        padding-left: 4px;
         text-decoration: none;   
         color: #434455;
         line-height: 1.5;
@@ -107,7 +108,7 @@ body {
 .header-links:focus {
     color: #4D5AE5;
 }    
-.contacts .contact:focus {
+.contact:focus {
     color: #4D5AE5;
 }
 
@@ -130,10 +131,16 @@ body {
 
 .button-first:focus {
         background: #404BBF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.button-first:hover {
+        background: #404BBF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button-first:active {
         background: #404BBF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button-second {
         background: #F4F4FD;
@@ -151,6 +158,10 @@ body {
 }
 
 .button-second:focus {
+        background-color: #4D5AE5;
+        color: #ffffff;
+}
+.button-second:hover {
         background-color: #4D5AE5;
         color: #ffffff;
 }
@@ -420,6 +431,10 @@ span {
         height: 88px;
         border: 1px solid #8E8F99;
         border-radius: 4px;
+        cursor: pointer;
+}
+.customer:hover {
+        border: 1px solid #4D5AE5;
 }
 .customer1 {
         content: '';
@@ -495,6 +510,9 @@ span {
 .filters .filter-type:hover {
         color: #FFFFFF;
 }
+.filters .filter-type:focus {
+        color: #FFFFFF;
+}
 .filter-type {
         font-weight: 600;
         font-size: 16px;
@@ -521,6 +539,13 @@ span {
         background: #FFFFFF;
         height: 420px;
         margin-bottom: 48px;
+        border: 0.5px solid #F4F4FD;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.card:hover {
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.card:focus {
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .card .wrapped-text {
@@ -591,7 +616,7 @@ span {
         padding-bottom: 100px;
         height: 310px;
         background-color: #2E2F42;
-        outline: 2px solid rgb(58, 56, 56);
+        /*outline: 2px solid rgb(58, 56, 56);*/
 }
 .address {
         display: flex;
@@ -627,8 +652,16 @@ span {
         cursor: pointer;
         margin-bottom: 36px;
 }
+.lol1:hover {
+        background-color: #31D0AA;
+}
 .icon-type1 {
         width: 22px;
         height: 22px;
         fill: #FFFFFF;
+}
+.icon-type2 {
+        width: 12px;
+        height: 12px;
+        fill: #434455;
 }
