@@ -406,6 +406,63 @@ span {
         width: 264px;
         height: 72px;
 }
+.customers {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+}
+.customer {
+        box-sizing: border-box;
+        width: 168px;
+        height: 88px;
+        border: 1px solid #8E8F99;
+        border-radius: 4px;
+}
+.customer1 {
+        content: '';
+        border-radius: 4px;
+        background-image: url(../images/group.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.customer2 {
+        content: '';
+        border-radius: 4px;
+        background-image: url(../images/group\ \(1\).svg);
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.customer3 {
+        content: '';
+        border-radius: 4px;
+        background-image: url(../images/group\ \(2\).svg);
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.customer4 {
+        content: '';
+        border-radius: 4px;
+        background-image: url(../images/group\ \(3\).svg);
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.customer5 {
+        content: '';
+        border-radius: 4px;
+        background-image: url(../images/group\ \(4\).svg);
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.customer6 {
+        content: '';
+        border-radius: 4px;
+        background-image: url(../images/group\ \(5\).svg);
+        background-position: center;
+        background-repeat: no-repeat;
+}
 
 /* PORTFOLIO BUTTONS */
 .filters {
@@ -541,4 +598,37 @@ span {
         flex-direction: column;
         padding-left: 15px;
         padding-right: 15px;
+}
+.blablabla {
+        display: flex;
+}
+.bla1 {
+        margin-right: 120px;
+}
+.media {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;   
+        letter-spacing: 0.02em;       
+        color: #FFFFFF;
+        padding-bottom: 16px;
+}
+.mur1 {
+        display: flex;
+        gap: 16px;
+}
+.lol1 {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        border: 0;
+        cursor: pointer;
+        margin-bottom: 36px;
+}
+.icon-type1 {
+        width: 22px;
+        height: 22px;
+        fill: #FFFFFF;
 }
