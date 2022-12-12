@@ -157,14 +157,13 @@ body {
         color: #4D5AE5;
 }
 
-.button-second:focus {
+.button-second:hover, .button-second:focus {
         background-color: #4D5AE5;
         color: #ffffff;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border: 0;
 }
-.button-second:hover {
-        background-color: #4D5AE5;
-        color: #ffffff;
-}
+
 .box-title {
         max-width: 1600рх;
         height: 603px;
@@ -265,7 +264,7 @@ body {
         display: flex;
         gap: 24px;
 }
-.lol {
+.social-icon {
         width: 40px;
         height: 40px;
         background-color: #4D5AE5;
@@ -279,6 +278,7 @@ body {
         height: 16px;
         fill: #FFFFFF;
 }
+
 
 .columns {
         display: flex;
@@ -424,25 +424,38 @@ span {
         margin-bottom: 0;
         padding-left: 0;
         padding-right: 0;
+        list-style: none;
+}
+:root {
+        --primary: #8E8F99;
+        --accent: #4D5AE5;
 }
 .customer {
         width: 168px;
         height: 88px;
         background-color: white;
-        border: 1px solid #8E8F99;
+        color: var(--primary);
+        border: 1px solid var(--primary);
         border-radius: 4px;
         cursor: pointer;
 }
+
 .customer:hover {
-        border: 1px solid #4D5AE5;
+        color: var(--accent);
+        border: 1px solid var(--accent);
+}
+.customer-box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+}
+.teg {
+        --icon-color: currentColor;
 }
 
-.teg {
-        fill: #8E8F99;
-}
-.teg:hover {
-        fill:#4D5AE5;
-}
 
 /* PORTFOLIO BUTTONS */
 .filters {
@@ -589,12 +602,12 @@ span {
         padding-left: 15px;
         padding-right: 15px;
 }
-.blablabla {
+.footer-scope {
         display: flex;
         margin-top: 0;
         margin-bottom: 0;
 }
-.bla1 {
+.scope {
         margin-right: 120px;
 }
 .media {
@@ -606,11 +619,11 @@ span {
         color: #FFFFFF;
         padding-bottom: 16px;
 }
-.mur1 {
+.social {
         display: flex;
         gap: 16px;
 }
-.lol1 {
+.social-icon1 {
         width: 40px;
         height: 40px;
         background-color: rgba(255, 255, 255, 0.1);
@@ -618,7 +631,11 @@ span {
         border: 0;
         cursor: pointer;
 }
-.lol1:hover {
+.social-icon:hover, .social-icon1:hover {
+        background-color: #31D0AA;
+}
+.social-icon:focus,
+.social-icon1:focus {
         background-color: #31D0AA;
 }
 .icon-type1 {
@@ -626,9 +643,3 @@ span {
         height: 22px;
         fill: #FFFFFF;
 }
-.icon-type2 {
-        width: 12px;
-        height: 12px;
-        fill: #434455;
-}
-
